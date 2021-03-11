@@ -4,7 +4,7 @@ const User = (props) => {
   return(
     <div>
       {/* User functional component test */}
-      {props.children}
+      Name: {props.children} | Age: {props.age}
     </div>
   )
 }
