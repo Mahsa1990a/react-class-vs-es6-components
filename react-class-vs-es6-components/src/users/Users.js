@@ -7,6 +7,8 @@ export default class Users extends Component {
     return(
       // <div>Class based component test</div>
       <div>
+        {/* coming from Users (calss based) from App: */}
+        <h1>{this.props.title}</h1>
         <User>AAA</User>
         <User>BBB</User>
         <User>CCC</User>
