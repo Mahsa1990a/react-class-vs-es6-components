@@ -9,9 +9,10 @@ export default class Users extends Component {
       <div>
         {/* coming from Users (calss based) from App: */}
         <h1>{this.props.title}</h1>
-        <User age="20">AAA</User>
+        <User></User>
         <User age="30">BBB</User>
         <User age="40">CCC</User>
+        <User age="50">DDD</User>
       </div>
     )
   }
