@@ -13,6 +13,7 @@ export default class Users extends Component {
         <User age="30">BBB</User>
         <User age="40">CCC</User>
         <User age="50">DDD</User>
+        <User age="50">EEE</User>
       </div>
     )
   }
